@@ -9,6 +9,16 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+# Ignore Unity cache and build files
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+Packages/com.unity.burst/
+
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
@@ -59,10 +69,12 @@ sysinfo.txt
 *.apk
 *.aab
 *.unitypackage
+*.unitypackage.meta
 *.app
 
 # Crashlytics generated file
 crashlytics-build.properties
+
 
 # Packed Addressables
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
